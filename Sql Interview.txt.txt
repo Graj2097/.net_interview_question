@@ -1,0 +1,55 @@
+Q1.What is View in Sql
+--A VIEW in SQL Server is like a virtual table that contains data from one or multiple tables.
+--It does not hold any data and does not exist physically in the database.
+--it can also used for implement column and row level security..
+--means if we sharing table but if want to hide a specific row or column then we will create view.
+Syntax:-
+create view viewname
+as
+select*from tablename
+select*from viewname
+
+2.what is Normalization....
+>It is a process to remove or reduce the data redundancy.
+
+Q3.What do you understand by recursive store procedure.
+=>It is problem solving method through which we can arrive at the solution agin and again.
+
+Q4.What is difference between Store procedure and Function.
+=>            Function                                       Storeprocedure.
+
+1.Function must having return value.                 1.May or may not be return value.
+2.only input parameter.                              2.Input and output both parameter .
+3.functioncan call from store proc.                  3.but store proc cannot be call from function.
+4..It allows only select statement                   4.It allows insert/update/delete/select
+
+Q5.What is DISTINCT Statement??
+=>The SELECT DISTINCT statement is used to return only distinct (different) values.
+=>Inside a table, a column often contains many duplicate values; and sometimes you only want to list the different (distinct) values.
+
+Q6. Difference between Primary key and Unque key??
+           Primary Key                                       Unique Key
+=>Primary key will not accept NULL values              Unique key can accept NULL values.
+ A table can have only one primary key                 Unique can be multiple unique key on a table
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,85 @@
+Q1.What is CLR.
+=>It is an executional enviroment which is layer between Application component and operating system...
+=>It convert the managed code into native code and then excute the program...
+
+Q2.What is Static Keyword.
+=>It is keyword to declaring to member of a type,specific to that type.
+
+Q3.Difference between Break and Countinue statement.
+=>Break: If we are using break statement then we jump out of the loop.
+=>Countinue:If we are using Countinue statement then we jump out a cretain iteration and it again countinuing the excutions.
+
+Q4.Difference between Finally block and Finalize method.
+=>Finally Method:It is excuting after the try and catch block.
+=>Finalize method:It is just called just before the garbage collections.
+
+Q5.What is Class and Object.
+=>Class: It is the blue print of Object ,which defines the different platform for Object.
+=>Oject: It is an instance of class, which created by New keyword.
+
+Q6.what is abstract class.
+=> It is type of class whose objects cann't be intantiated,and it is used to declare the common chracteristics of sub class.
+
+Q7.What is Sealed Class.
+=>It is created when you want to restrict the class being Inherit.
+
+Q8.What is partial class.
+=>It split the class defination into multiple classes ,either the same source code file or multiple code file.
+
+Q9. What is Method Overloading.
+=>Create a multiple method with a same name but different Signature.
+
+Q10.What is methodoverriding.
+=>If the derived class define same method as define the base class ,it is known as method Overriding.
+
+Q11.What is difference between Method hiding and method overriding.
+=>Method Hiding: In method hiding parent class variable always pointing to child class object and invoke the hidden
+ method of parent class.
+=> Method Overriding: In method overriding parent class variable is pointing to child class object and invoke the overriden child class.
+
+Q12. What is Indexers.
+=>Indexers allows our object to be used just like an array.
+
+Q13. What is delegates.
+=> Delegates is a type which holds the method reference in an object.
+=> It will used to store the reference of a method.
+
+Q14.What is dependency Injection.
+=>Dependency Injection (DI) is a software design pattern. It allows us to develop loosely-coupled code. 
+The intent of Dependency Injection is to make code maintainable.
+Dependency Injection helps to reduce the tight coupling among software components. 
+
+Q15.What is diference between Managed code and unmanaged code.
+=>                 Managed code                                  Unmanaged code
+1.A code excuted by CLR insted of Operating system.       1.A code is excuted directly by the opearting system.
+2.Runtime provieds services like garbage collector,       2.But in unmanaged code that type of servies are not avilable.
+  exception handling etc.
+
+Q16. What is assembly in .Net?
+=>It is a logical unit of code and excuted by CLR.
+=>It is collection nof of types and resources information which are built to work together and form a logical unit of functionlity.
+Two types of Assemblies:-
+1.exe file: When are creating Console or Windows Project,then .exe are created.
+2.Dll file: when we are creating Web app project,then Dll are created. 
+
+Q17.What is GAC(Global Assembly cache)?
+=>
+
+Q18.What is difference between Value type and reference type?
+=>      value type                                            reference type
+1.If variable store a value                              1. if a variable store a addresss.
+2.Value type are created at compilation time.            2. Reference type are created at run time.
+3.Value type are store in Stack memory                   3.reference type are store in heap memory.
+
+
+
+
+
+
+
+
+
+
+
+
+  

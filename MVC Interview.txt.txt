@@ -1,0 +1,73 @@
+Q1.What is partial view.
+=>Partial view represets a sub-view of main view.
+=>We cannot use partial view seperately,we have to attach partial in some other view.
+=>we can use partial view in different view.
+ 
+Q2.What is filter and how many types of filter.
+=> Some times we want to excute some logic either before the excution of action method or after the action method,
+such kind of senario we use ACTION FILTER.
+1.Authorization filters: Performs authentication and authorizes before executing an action method.
+ 2.Action filters:Performs some operation before and after an action method executes.
+ 3.Result filters:Performs some operation before or after the execution of the view.
+4.Exception filters:Performs some operation if there is an unhandled exception thrown during the execution of the ASP.NET MVC pipeline.
+
+Q3.What is the difference between Viewbag, View data,Temp data.
+=>Viewbag-ViewBag is a dynamic object to pass the data from Controller to View.
+ And, this will pass the data as a property of object ViewBag.
+ And we have no need to typecast to read the data or for null checking.
+=>Viewdata- ViewData is a dictionary object to pass the data from Controller to View where data is passed in the form of key-value pair.
+ And typecasting is required to read the data in View if the data is complex and we need to ensure null check to avoid null exceptions.
+=>Tempdata-TempData is a dictionary object to pass the data from one action to other action in the same Controller or different
+ Controllers. Usually,TempData object will be stored in a session object.
+ Tempdata is also required to typecast and for null checking before reading data from it.
+
+Q4.What is non-action Attribute.
+=>if we are creating a method and do not wish to use as an action method  
+
+Q5.What is return types and how types.
+=>ActionResult is a return type of a controller method in ASP.NET MVC.
+ViewResult 
+PartialViewResult 
+ContentResult 
+EmptyResult 
+FileResult 
+JsonResult 
+JavaScriptResult
+RedirectResault
+
+Q6.How to maintain Session in MVC.
+=> The session can be maintained by using Viewbag,Viewdata and Temp data.
+
+Q7. What does Mvc application defines with 3 logical data..
+=>Buisness layer which model logic, display layer which is view logic and input control which is controller logic.
+
+Q8.What is MVC Scaffolding .
+=>It is a code generation framwork for ASP.net web application.
+
+Q9. What is Get and Post action result.
+=>Get is used to request data from specified resource.
+=>Post is used to submit data to be processed to a specified resource.
+
+Q10. Which filter is excuted in the end.
+=>Exception filter are excuted in the end.
+
+Q11.how do you implement AJAX in MVC.
+=> using AJAX library and Jquery.
+
+Q12.What is Keep and Peek in temp data.
+=>once temp data is read in current request,it is not avilable for subsequent request,if we want temp data to read and also avilable in subsequent request,
+thn after reading we need to call keep and peek method..
+
+Q13.Why we are using HTML.partial in mvc.
+=>This method is used to render the specified partial view in html,this method is not depend on action method. 
+
+Q14.What is glimps.
+=>It is a NUget package which help you to finding performance ,debuging and dignostic information.
+
+Q15.What is Routing.
+=>Routing is a process of mapping the browser request to the controller action and return response back. 
+
+
+
+		
+		
